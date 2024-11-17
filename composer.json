@@ -1,0 +1,27 @@
+{
+    "name": "supabase-php/supabase-postgres",
+    "description": "Supabase PostgreSQL database for r PHP client",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^3.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SupabasePhp\\SupabasePostgres\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sushil Kumar",
+            "email": "sushilkumbhar77@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
